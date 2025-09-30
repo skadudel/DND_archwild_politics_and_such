@@ -16,7 +16,12 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: flex-start;
+}
+
+a{
+    font-size: 14px;
+    padding-top: 15px;
 }
 
 .title{
@@ -59,7 +64,7 @@ body{
 
 .text{
     width: 500px;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .image img{
@@ -70,7 +75,6 @@ body{
 
 .vl {
     border-left: 6px solid white;
-    height: 450px;
+    height: 520px;
     border-radius: 5px;
-    margin-top: 10px;
 }
