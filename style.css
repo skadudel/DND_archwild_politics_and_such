@@ -11,6 +11,7 @@ body{
 .mainBody{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .header{
